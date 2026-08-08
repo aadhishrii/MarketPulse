@@ -8,12 +8,9 @@ const axios = require('axios');
 const HttpsProxyAgent = require('https-proxy-agent');  // proxy is needed when local developing using VPN to access news API
 // export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
 
-// const tiingoAPIkey = 'be37d86b75ad931e483aaab61f620653921a7517';
-const tiingoAPIkey = 'cmuok39r01qltmc13bp0cmuok39r01qltmc13bpg';
-// const tiingoAPIkey = 'dea471cb1109196d1921d429284606624f433067';
-const newsAPIkey = '166945ff132b43c2a1a395898628ab48';
-// const newsAPIkey = '83d88b3f4f9d44ccad89772a6ef0e218';  // candidate key
-const polygonAPIKey = 'gBin_P72Qze8bZDYLJ9IyX1Ab2p6q6lx';
+const tiingoAPIkey = '';
+const newsAPIkey = '';
+const polygonAPIKey = '';
 
 module.exports.getAutocomplete = getAutocomplete;
 module.exports.getCompanyMetaData = getCompanyMetaData;
